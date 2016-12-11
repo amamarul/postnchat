@@ -1,0 +1,616 @@
+body {
+    background: url("http://localhost/postnchat/public/assets/img/bg_line.jpg") repeat-x fixed;
+    color: #666;
+    font-size: 13px;
+}
+.maincontainer {
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+}
+h1, h2, h3, h4, h5, strong {
+    color: #444;
+}
+
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.new-post {
+    padding: 16px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.new-post header,
+.posts header {
+    margin-bottom: 20px;
+}
+
+.posts .post {
+    padding-left: 10px;
+    border-left: 3px solid #a21b24;
+    margin-bottom: 30px;
+}
+
+.create-post {
+    background: #55bbd2;
+    padding: 15px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.nav .account-img-link {
+    padding: 5px;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background: none;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background: none;
+}
+
+.nav > li > a > img {
+    max-width: 35px;
+    margin-top: -17px;
+    margin-right: 8px;
+    margin-bottom: -15px;
+}
+
+.dropdown-menu > li > a {
+    font-style: normal;
+}
+
+.info .nav > li > a {
+    font-size: 15px;
+}
+
+.account-img-link img {
+    width: 40px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.account-img {
+    padding: 10px 0 0;
+    width: 100px;
+}
+
+.ad_img {
+    margin-top: 2px;
+    height: 153px;
+    overflow: hidden;
+}
+
+.ad_img img {
+    width: 100%;
+}
+
+.img_icon_50 {
+    width: 50px;
+    float: left;
+}
+
+.img_icon_40 {
+    width: 40px;
+    float: left;
+}
+
+ul.post_notif_box li span.notif_body {
+    color: #ddd;
+}
+
+.post_notif_box .img_icon_sm {
+    width: 35px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.newsfeed {
+    margin-bottom: 30px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background: #fff;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 80px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+}
+
+.navbar a.navbar-brand, .navbar a {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar {
+    /*background: #55bbd2;*/
+    background: url("http://localhost/postnchat/public/assets/img/header_bg.png");
+    border: none;
+}
+.navbar-default {
+    border: none;
+}
+
+.navbar .dropdown a {
+    color: #fff;
+}
+
+.navbar .dropdown-menu a {
+    color: #55bbd2 !important;
+}
+
+.maincontainer {
+    margin-top: 60px;
+    padding-top: 15px;
+}
+
+.main_section {
+    margin-top: 25px;
+}
+
+.info {
+    color: #fff;
+    font-style: italic;
+    float: left;
+    width: 100%;
+    background: #55bbd2;
+    padding: 15px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.info span {
+    color: #eee;
+    margin-left: 15px;
+    float: left;
+    
+}
+
+.info span strong {
+    color: #fff;
+    font-style: normal;
+}
+
+.newsfeed .body {
+    font-size: 14px;
+    color: #444;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.info, .body, .interaction, .comments {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.postimg {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.interaction {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.commentform {
+    color: #aaaaaa;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+footer {
+    padding: 18px 0 10px;
+    color: #55bbd2;
+    text-align: center;
+    font-size: 15px;
+    border-top: 1px solid #ddd;
+    background: #FFFFFF;
+    font-weight: bold;
+}
+
+.postimg {
+    border: 1px solid #e8e8e8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.interaction {
+    clear: both;
+    width: 100%;
+    float: left;
+    background: #fbfbfb;
+    padding: 10px;
+}
+
+a, a:visited, a:focus {
+    color: #5db25d;
+}
+
+a:hover {
+    color: #379837;
+}
+.comments form {
+    padding: 0;
+    width: 89%;
+    float: right;
+}
+.comments form img, .comments form textarea, .comments form input {
+    float: left;
+}
+
+.comments form textarea {
+    height: 40px;
+    overflow: hidden;
+}
+
+.comments form input {
+    margin: 10px 0;
+}
+
+.comment {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.comment img, .comment p {
+    float: left;
+}
+.comment > span > a {
+    display: none;
+    margin-top: 0;
+}
+
+
+.comment p {
+    width: 80%;
+    margin: 0 0 0 15px;
+}
+
+.hcp_comment_count {
+    display: none;
+}
+
+.group-list {
+    overflow: hidden;
+}
+
+.friends-list ul li.end {
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.friends-list ul li.end .user-search {
+    height: 28px;
+    margin: 3px 0;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.userlist li a, .grouplist li a {
+    width: 100%;
+    float: left;
+    padding: 2px 15px;
+    border-bottom: 1px solid #eee;
+    line-height: 31px;
+}
+
+.userlist li a img {
+    width: 35px;
+    margin-right: 7px;
+}
+
+.userlist li.selected_user a {
+    background: #f9f9f9;
+}
+
+.userlist li a:hover, .grouplist li a:hover {
+    text-decoration: none;
+    background: #f8f8f8;
+}
+
+.active a {
+    text-decoration: none;
+    background: #f8f8f8;
+    color: #55bbd2 !important;
+}
+
+.friends-list ul li.head, .group-list ul li.head {
+    font-size: 16px;
+    padding: 10px 15px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+
+
+.friends-list .online, .friends-list .offline {
+    background: #3CFF0B;
+    margin-top: 11px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.friends-list .offline {
+    background: #ddd;
+}
+
+.sidebar-fixed {
+    /*position: fixed;*/
+    /*right: 115px;*/
+    /*width: 380px;*/
+}
+
+.post-create-alert {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    color: #55bbd2;
+    display: none;
+}
+
+#loading {
+    text-align: right;
+}
+
+
+.overflow-y {
+    height: 465px;
+    overflow: hidden;
+    /*margin-left: -22px;*/
+    /*padding-left: 18px;*/
+}
+
+.overflow-y a {
+    color: #fff;
+}
+
+.overflow-y a:hover {
+    color: #55bbd2;
+}
+
+.overflow-y:hover {
+    width: 129px;
+    overflow-y: scroll;
+}
+
+.chatbox {
+    position: fixed;
+    bottom: 0;
+    right: 140px;
+    background: #eee;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid rgba(255, 3, 3, 0.5);
+    width: 250px;
+    display: none;
+}
+
+.chatbox .head {
+    background: rgba(255, 3, 3, 0.4);
+}
+
+.chatbox h3 {
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+    width: 86%;
+}
+
+.chatbox span.control {
+    color: #FFFFFF;
+    font-size: 12px;
+    float: right;
+}
+
+.chatbox span.control i {
+    padding: 6px 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 5px 0px 5px;
+}
+
+.chatbox span.control i:hover {
+    background: rgba(255, 3, 3, 0.4);
+}
+
+.chatform {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+}
+
+.chatbox .chatinputwrapper {
+    width: 100%;
+}
+
+.chatbox .messages {
+    /*display: none;*/
+}
+
+.chatbox .glyphicon-unchecked {
+    display: none;
+}
+
+.chatmsg.form-control:focus {
+    border: 1px solid rgba(255, 3, 3, 0.3) !important;
+}
+
+.chatbox .messages ul {
+    background: #f8f8f8;
+    padding: 15px;
+    margin: 0;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.chatbox .chatmsg {
+    height: 35px;
+    overflow: hidden;
+}
+
+.chatbox li.send, .chatbox li.receive {
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+}
+
+
+.chatbox li.send img {
+    width: 15%;
+    float: left;
+    margin-right: 5%;
+}
+
+.chatbox li.receive img {
+    width: 15%;
+    float: right;
+    margin-left: 5%;
+}
+
+.chatbox li.receive .receive_msg {
+    width: 80%;
+    float: left;
+    padding: 5px 10px;
+    background: rgba(255, 3, 3, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.chatbox li.send .send_msg {
+    width: 80%;
+    float: left;
+    padding: 5px 10px;
+    background: rgba(86, 188, 212, 0.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.groups {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    background: #55bbd2;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    z-index: 999;
+}
+
+.userslist {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    background: #55bbd2;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.userslist .overflow-y {
+    height: 420px;
+}
+
+.userslist .friends-list .head {
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0;
+}
+
+.selected_user a{
+    color: #55bbd2;
+}
+
+.notification {
+    position: relative;
+    left: 0;
+    top: 0;
+    background: rgba(255, 3, 3, 0.9);
+    margin-top: -36px;
+    float: left;
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border-radius: 100%;*/
+    padding: 3px 5px;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.empty_list {
+    padding: 10px;
+    color: #fff;
+}
+
+.navbar .post_notification:hover {
+    background: #4AA5BA;
+}
+
+.navbar a .glyphicon-alert {
+    /*color: red;*/
+}
+
+.navbar a .notif_count {
+    color: #fff;
+}
+
+.navbar ul.post_notif_box {
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 350px;
+    background: #4AA5BA;
+    -webkit-border-radius: 5px 0 5px 5px;
+    -moz-border-radius: 5px 0 5px 5px;
+    border-radius: 5px 0 5px 5px;: ;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 10px solid #4AA5BA;
+    display: none;
+}
+
+.navbar ul.post_notif_box li {
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar ul.post_notif_box li:last-child {
+    border-bottom: none;
+}
