@@ -1,5 +1,5 @@
 # Postnchat
-This project is a social networking site where users can chat and post their thoughts on different interest groups.
+This project is a social networking site where users can chat and post their thoughts on different interest groups. This project is build on top of Laravel 5.2 Framework.
 
 ## Features
 1. User Profile
