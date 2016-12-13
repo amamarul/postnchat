@@ -11,5 +11,14 @@ This project is a social networking site where users can chat and post their tho
 7. Ability to hide Post.
 8. Notification when others comment/like on your post.
 
-## A Short Tour
+## A Short Video Tour
 http://www.screencast.com/t/B4OBNUlYDWY9
+
+##Screenshots
+![screenshot](screenshots/post_1.jpg)
+![screenshot](screenshots/post_2.jpg)
+![screenshot](screenshots/post_3.jpg)
+![screenshot](screenshots/post_4.jpg)
+![screenshot](screenshots/post_5.jpg)
+![screenshot](screenshots/post_6.jpg)
+![screenshot](screenshots/post_7.jpg)
