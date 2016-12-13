@@ -15,10 +15,17 @@ This project is a social networking site where users can chat and post their tho
 http://www.screencast.com/t/B4OBNUlYDWY9
 
 #Screenshots
+login:
 ![screenshot](screenshots/post_1.jpg)
+dashboard:
 ![screenshot](screenshots/post_2.jpg)
+notification:
 ![screenshot](screenshots/post_3.jpg)
+group:
 ![screenshot](screenshots/post_4.jpg)
+chat:
 ![screenshot](screenshots/post_5.jpg)
+like and comment:
 ![screenshot](screenshots/post_6.jpg)
+post text and image:
 ![screenshot](screenshots/post_7.jpg)
